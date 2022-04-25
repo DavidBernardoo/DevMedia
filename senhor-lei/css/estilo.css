@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.secao-sobre, .secao-atuacao, .secao-fale-conosco {
+    padding: 30px 0;
+}
+
+.secao-largura-limitada {
+    width: 612px;
+    margin: auto;
+}
+
+.texto-destaque {
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+}
+
+.secao-topo {
+    font-size: 1.2em;
+}
+
+.secao-background-capa {
+    background-image: url('../img/capa.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+.secao-background-sobre {
+    padding-top: 30px;
+    text-align: right;
+}
+
+.secao-background-sobre h1, h2 {
+    margin: 0px;
+}
+
+.imagem-pequena {
+    width: 200px;
+    margin: 0 2px;
+}
+
+.paragrafo-destaque {
+    padding-left: 10px;
+    border-left: 1px solid black;
+    font-size: 1.3em;
+}
+
+.secao-background-divisao {
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+}
+
+.secao-background-divisao h3 {
+    background-color: white;
+    width: max-content;
+    padding: 10px 20px;
+    margin: auto;
+    font-size: 2em;
+}
