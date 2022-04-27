@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    color: rgb(83, 83, 83);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.titulo {
+    padding: 56px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.secao-largura-limitada {
+    width: 1024px;
+    margin: auto;
+}
+
+.secao-topo {
+    background-color: rgba(255, 255, 255, 0.973);
+    position: fixed;
+    width: 99vw;
+}
+
+.topo-conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.p1 a {
+    color: black;
+    font-size: 1.5em;
+}
+
+.p1 span {
+    color: rgb(52, 52, 253);
+}
+
+.p2 a {
+    color: black;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.secao-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    background-image: url('assets/img-fundo.jpg');
+    background-size: cover;
+}
+
+.banner-conteudo {
+    background-color: rgba(0, 153, 128, 0.63);
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.banner-conteudo h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+.banner-conteudo p {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.secao-conheca-quartos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conheca-quartos {
+    border-bottom: 2px solid rgb(83, 83, 83);
+}
+
+.secao-conheca-quartos img{
+    width: 300px;
+}
+
+.secao-conheca-quartos a {
+    color: rgb(83, 83, 83);
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.secao-mapa iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.secao-sobre-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.sobre-conteudo {
+    display: flex;
+    align-items: center;
+}
+
+.sobre-conteudo div {
+    text-align: left;
+    width: 350px;
+}
+
+.sobre-conteudo img {
+    width: 100px;
+    height: 110px;
+}
+
+.secao-rodape {
+    background-color: #1d8d84;
+    color: white;
+}
+
+.secao-rodape a {
+    color: white;
+}
+
+.secao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #18756e;
+    text-align: left;
+}
+
+.secao-informacoes p, h4 {
+    width: 150px;
+    padding: 10px;
+}
+
+.secao-informacoes h4 {
+    font-size: 1.2em;
+}
+
+.secao-informacoes div {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.copyright p {
+    margin: 0;
+    padding: 20px;
+    font-weight: bold;
+}
