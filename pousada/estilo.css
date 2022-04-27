@@ -134,6 +134,31 @@ a {
     height: 110px;
 }
 
+.secao-banner-quartos {
+    background-image: url('assets/img-fundo.jpg');
+    height: 210px;
+}
+
+.secao-quartos {
+    display: flex;
+    justify-content: center;
+}
+
+.secao-quartos img {
+    width: calc(100%/3 - 15px);
+    margin: 0px 5px;
+}
+
+.secao-quarto-info {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.secao-quarto-info ul{
+    columns: 3;
+    text-align: left;
+}
+
 .secao-rodape {
     background-color: #1d8d84;
     color: white;
