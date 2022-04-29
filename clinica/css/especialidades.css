@@ -17,13 +17,22 @@
     display: inline;
     list-style: none;
     margin-left: 20px;
+    line-height: 40px;
 }
 
 .secao-links a {
-    color: rgb(109, 109, 109);
+    color: black;
     border-bottom: 3px solid rgb(2, 215, 243);
     font-size: 1.1em;
     text-decoration: none;
+}
+
+.secao-links a:hover {
+    color: rgb(109, 109, 109);
+}
+
+.texto-descricao {
+    padding: 0 10px;
 }
 
 .texto-descricao h3{
@@ -68,4 +77,20 @@
 .tabela td, th {
     text-align: left;
     padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .tabela {
+        height: 300px;
+    }
+
+    .tabela img {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .secao-especialidade {
+        padding: 0;
+    }    
 }

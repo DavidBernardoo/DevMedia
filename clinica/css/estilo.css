@@ -88,6 +88,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    list-style-position: inside;
 }
 
 #sobre article:nth-of-type(2) div {
@@ -190,12 +191,12 @@ section {
     }
 
     .topo-menu nav {
-        padding: 10px 0;
+        padding: 10px 0 5px;
         border-top: 1px solid rgb(2, 164, 185);
     }
 
     .topo-menu a {
-        margin: 0 16px;
+        margin: 0 10px;
     }
 
     .secao-banner {
@@ -203,6 +204,6 @@ section {
     }
 
     .secao-banner h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 }
