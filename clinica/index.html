@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMLife - Home</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="secao-topo">
-        <section class="secao-largura-limitada">
+        <section class="secao-largura-limitada topo-menu">
             <a href="index.html"><img src="assets/logo.png" alt="Logo"></a>
-            <nav>
+            <nav class="links-topo">
                 <ul>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Especialidade</a></li>
@@ -19,54 +21,62 @@
             </nav>
         </section>
     </header>
-    <main class="secao-conteudo secao-largura-limitada">
-        <section>
-            <h1>Clínica médica life aqui a gente cuida de você</h1>
+    <main class="secao-conteudo">
+        <section class="secao-banner">
+            <div class="secao-largura-limitada">
+                <h1>Clínica médica life<br>aqui a gente cuida de você</h1>
+            </div>
         </section>
-        <section>
-            <article>
+        <section id="sobre" class="secao-largura-limitada">
+            <article class="texto-descricao">
                 <h2>Sobre a clínica</h2>
                 <p>Nossa clínica está pronta para receber nossos pacientes através de uma exelente estrutura, comodidade e com a segurança de que você presisa.</p>
             </article>
             <article>
                 <img src="assets/medico.jpg" alt="Médico">
-                <h3>Aqui na nossa clínica você vai encontrar:</h3>
-                <ul>
-                    <li>Horário flexível atendemos de segunda à sábado.</li>
-                    <li>Estacíonamento amplo com 600 vagas.</li>
-                    <li>Sala de espera com TV e Wifi.</li>
-                    <li>Agendamento pelo telefone ou WhatsApp.</li>
-                    <li>Excelente localização.</li>
-                    <li>Entrega de exames em sua residência.</li>
-                </ul>
+                <div>
+                    <h3>Aqui na nossa clínica você vai encontrar:</h3>
+                    <ul>
+                        <li>Horário flexível atendemos de segunda à sábado.</li>
+                        <li>Estacíonamento amplo com 600 vagas.</li>
+                        <li>Sala de espera com TV e Wifi.</li>
+                        <li>Agendamento pelo telefone ou WhatsApp.</li>
+                        <li>Excelente localização.</li>
+                        <li>Entrega de exames em sua residência.</li>
+                    </ul>
+                </div>
             </article>
         </section>
-        <section>
-            <article>
+        <section class="secao-largura-limitada">
+            <article class="texto-descricao">
                 <h3>Uma clínica de multiespecialidade</h3>
                 <p>Nossa clínica possui diversas especialidades. Como ortopedia, pediatra, geriatria, psicologia, fisioterapia e outros.</p>
             </article>
-            <article>
-                <figure>
-                    <img src="assets/ortopedia.png">
-                    <figcaption>Ortopedia</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/pediatra.png">
-                    <figcaption>Pediatria</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/geriatra.png">
-                    <figcaption>Geriatria</figcaption>
-                </figure>
+            <article class="conjunto-imagens">
+                <div>
+                    <figure>
+                        <img src="assets/ortopedia1.png">
+                        <figcaption>Ortopedia</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/pediatra.png">
+                        <figcaption>Pediatria</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/geriatra.png">
+                        <figcaption>Geriatria</figcaption>
+                    </figure>
+                </div>
+                <a href="#">Ver Horários</a>
             </article>
-            <a href="#">Ver Horários</a>
         </section>
-        <section>
-            <h3>Contato</h3>
-            <p>Nossa clínica médica está aberto de <strong>segunda à sábado das 6:00 às 21:00</strong></p>
-            <p>Através do telefone/WhatsApp <strong>(21) 99966-5555</strong> você pode fazer o agendamento de consultas e exames.</p>
-            <p>Estamos localizados no estacionamento do Via Parque Shopping <strong>av.Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro</strong>.</p>
+        <section id="contato" class="secao-largura-limitada">
+            <article class="texto-descricao">
+                <h3>Contato</h3>
+                <p>Nossa clínica médica está aberto de <strong>segunda à sábado das 6:00 às 21:00</strong></p>
+                <p>Através do telefone/WhatsApp <strong>(21) 99966-5555</strong> você pode fazer o agendamento de consultas e exames.</p>
+                <p>Estamos localizados no estacionamento do Via Parque Shopping <strong>av.Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro</strong>.</p>
+            </article>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0540674947056!2d-46.648938185423866!3d-23.494561965013048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7622edea971%3A0x86ea8507b34c92ba!2sCASA%20DO%20CARALH0!5e0!3m2!1spt-PT!2sbr!4v1651178464670!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
