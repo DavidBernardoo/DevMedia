@@ -1,3 +1,86 @@
 @charset "UTF-8";
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
 
+.secao-largura-limitada {
+    width: 800px;
+    margin: auto;
+}
+
+.secao-topo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.secao-banner {
+    background-image: url('../img/capa.jpg');
+    background-size: cover;
+    height: 420px;
+}
+
+.secao-banner div {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    height: 150px;
+}
+
+.secao-banner h1 {
+    text-align: right;
+}
+
+.texto-borda {
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+
+.titulo-separador {
+    background-color: rgb(248, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    height: 150px;
+}
+
+.titulo-separador h3 {
+    background-color: darkred;
+    color: white;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.formulario fieldset {
+    margin: 20px 0 10px;
+}
+
+.formulario input, select {
+    width: 100%;
+    height: 30px;
+}
+
+.formulario button {
+    background-color: rgb(248, 74, 74);
+    color: white;
+    border: 0px;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+footer {
+    margin: 100px 0 10px;
+    color: rgb(36, 36, 36);
+    text-align: center;
+}

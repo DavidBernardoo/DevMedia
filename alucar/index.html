@@ -8,27 +8,29 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <header class="secao-largura-limitada">
+    <header class="secao-topo secao-largura-limitada">
         <p>AluCar</p>
     </header>
-    <main class="secao-largura-limitada">
-        <section class="">
-            <h1>AluCar Aluguel de Carros</h1>
+    <main>
+        <section class="secao-banner">
+            <div>
+                <h1 class="secao-largura-limitada">AluCar<br>Aluguel de Carros</h1>
+            </div>
         </section>
 
-        <section class="titulo-descricao">
+        <section class="titulo-descricao secao-largura-limitada">
             <h2>Sobre nós</h2>
             <p>Há 45 anos atuando na área de locação de veículos com segurança e garantia de satisfação.
             Temos os melhores preços e modelos do mercado.</p>
         </section>
 
-        <section class="conjunto-imagem">
+        <section class="conjunto-imagem secao-largura-limitada">
             <img src="img/img1.jpg">
             <img src="img/img2.jpg">
             <img src="img/img3.jpg">
         </section>
 
-        <section>
+        <section class="secao-largura-limitada">
             <p class="texto-borda">O compromisso da AluCar é com a qualidade.</p>
             <p class="texto-borda">Os melhores carros estão aqui!</p>
             <p class="texto-borda">Assistência 24hrs.</p>
@@ -38,12 +40,12 @@
             <h3>Contato</h3>
         </section>
 
-        <section class="titulo-descricao">
+        <section class="titulo-descricao secao-largura-limitada">
             <h2>Análise de cadastro</h2>
             <p>Preencha os campos abaixo e analisaremos seus dados.<br> Se tudo estiver correto ligaremos para marcar uma visita sua à loja.</p>
         </section>
 
-        <form action="https://www.devmedia.com.br/codigos/formularios/aula9/">
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula9/?nome=David+Bernardo&data-nascimento=2002-08-09&telefone=11+101001010101&numero-registro=10013901930918&validade=6000-06-06&modelo-carro=skyline" class="formulario secao-largura-limitada">
             <fieldset>
                 <legend>Dados pessoais</legend>
 
@@ -70,6 +72,7 @@
             <fieldset>
                 <legend>Carro</legend>
                 
+                <label>Modelo do carro</label>
                 <select name="modelo-carro" required>
                     <option value="">Escolha um carro</option>
                     <optgroup label="Volkswagem">
@@ -88,8 +91,9 @@
                         <option value="skyline">Skyline GT-R</option>
                     </optgroup>
                 </select>
-                <button>Enviar dados</button>
             </fieldset>
+            <button type="submit">Enviar dados</button>
+            <input type="checkbox" name="" id="">
         </form>
     </main>
     <footer>
