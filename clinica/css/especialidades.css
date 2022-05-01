@@ -16,7 +16,7 @@
 .secao-links li {
     display: inline;
     list-style: none;
-    margin-left: 20px;
+    margin: 0 10px;
     line-height: 40px;
 }
 
