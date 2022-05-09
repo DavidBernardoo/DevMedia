@@ -1,0 +1,20 @@
+{
+  "name": "devmedia",
+  "version": "1.0.0",
+  "description": "Curso de front-end da DevMedia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBernardoo/DevMedia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidBernardoo/DevMedia/issues"
+  },
+  "homepage": "https://github.com/DavidBernardoo/DevMedia#readme"
+}
